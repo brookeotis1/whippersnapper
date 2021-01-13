@@ -1,39 +1,59 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css"/>
+    
 
-    <title>Whippersnapper Quiz!</title>
 
 </head>
 <body>
-    <div id="container">
-        <div id="start"> Start quiz!</div>
-        <div id="quiz" style = "display : none;"
-            <div id="question"></div>
-            <div id="choices"></div>
-                <div class="choice" id="A"
-                onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B"
-                onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C"
-                onclick="checkAnswer('C')"></div>
-                
+    <h1>Whippersnapper Quiz!</h1> 
+    <h3>Let's test your knowledge about the best holiday ever!</h3>
+    <h5>You have 60 seconds to answer as many questions possible. Get one wrong and you get 10 less seconds to finish.</h5>
+    <div class="container">
+        <div id="counter"> Time Remaining:</div>
+        <div id="quiz-container" class="hide">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid">
+            
+        </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+        </div>
+        </div>
 
-            <div id="timer"></div>
-                <div id="counter"></div>
-                
+    <div class="container">
+        <div id="score-container" class="justify-center flex-column">
+            <div id="score">
+             </div>
+            <p class="score-prefix">Score</p>
+            <h1 class="score-main-text" id="score">0</h1>
+            <div class="controls">
+                <button id="saveScore-btn" class="saveScore-btn btn">Save Score</button>
             </div>
-
-            <div id="progress"></div>
-
-    <div id="scoreContainer" style="display: none"></div>
-
+        </div>
+    </div>
+    <div class="container">
+        <div id="high-score-container" class="justify-center flex-column">
+            <div id="high-score">
+             </div>
+            <p class="score-prefix">High Score Champions</p>
+            
+            <div class="controls">
+                <button id="addHighScore-btn" class="addHighScore-btn btn">Add Initials</button>
+                <button id="clearHighScore-btn" class="clearHighScore-btn btn">Clear High Scores</button>
+            </div>
+        </div>
     </div>
 
 
-<script src="script.js"></script>    
+
+
+    <script src="script.js"></script> 
 </body>
 </html>

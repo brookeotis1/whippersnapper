@@ -1,17 +1,18 @@
 # whippersnapper
  quiz
-what is the best holiday of the year
-a- christmas
-b- halloween
-c- 4th of july
 
-who brought halloween to north america?
-a- Romans
-b- Germans
-c- Irish and Scottish
+3 questions about my favorite holiday
 
-what is the best halloween movie?
-a- nightmare before christmas
-b-hocus pocus
-c-Carrie
+start button
+
+timer starts
+-question wrong subtract time
+
+questions go to next
+
+all q's or timer is zero- game over
+
+save my initials and score
+
+score box?
 

@@ -1,59 +1,72 @@
+
 body{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
 }
 
-#container{
+h1 {text-align: center;}
+h3 {text-align: center;}
+h5 {text-align: center;}
+
+.container{
     margin : 20px auto;
     background-color: white;
     height: 300px;
-    width : 700px;
+    width : 800px;
+    max-width: 80%;
     border-radius: 7px;
+    padding: 10px;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
 }
-#start{
-    font-size: 20px;
-    font-weight: bolder;
-    width:100px;
-    height:150px;
-    border : 2px solid rgb(63, 57, 57);
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    left:300px;
-    top:50px;
-    color : rgb(63, 57, 57;
-}
-#start:hover{
-    border: 3px solid rgb(178, 176, 32);
-    color : rgb(178, 176, 32;
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+
 }
 
-
-#question{
-    width:400px;
-    height : 150px;
-    position: absolute;
-    right:0;
-    top:0;
-}
-
-.choice{
-    display: inline-block;
-    width : 140px;
-    text-align: center;
-    border : 1px solid grey;
+.btn {
+    background-color: indigo;
+    border: 1px solid;
     border-radius: 5px;
-    cursor: pointer;
-    padding : 5px;
-}
-.choice:hover{
-    border : 2px solid grey;
-    font-weight: bold;
+    padding: 20px 10px;
+    color: white;
+    outline: none;
+    font-size: xx-large;
 }
 
-#timer{
+.btn:hover {
+    border-color: yellow;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+
+
+.start-btn {
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.saveScore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+/* #timer{
     position: absolute;
   
 }
@@ -75,5 +88,4 @@ body{
     width : 500px;
     position: relative;
     display: none;
-}
 

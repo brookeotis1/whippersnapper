@@ -1,18 +1,18 @@
-# whippersnapper
- quiz
+# Whippersnapper
 
-3 questions about my favorite holiday
+## Quiz
 
-start button
+## Description
+Timed quiz with JavaScript all about the best Holiday ever!
 
-timer starts
--question wrong subtract time
+## User Story
+As A coding boot camp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
 
-questions go to next
+## Link
+https://brookeotis1.github.io/whippersnapper/
 
-all q's or timer is zero- game over
 
-save my initials and score
 
-score box?
 
